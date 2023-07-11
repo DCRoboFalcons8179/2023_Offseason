@@ -1,6 +1,6 @@
 # Installation of FRC Development Utilities
 
-This will guide you through the installation of all utilities needed to get stared with FRC programming.
+This will guide you through the installation of all utilities needed to get started with FRC programming.
 
 ## 1. WPILib
 
@@ -11,7 +11,7 @@ Run the installer, and select `Start`.
 On the next screen, it will ask you if you want to install everything or only the tools. Select `Everything` and then click `Install for this User`.
 Next, WPILib will want you to install VS Code. There are two ways to do this.
 1. The easiest way to go about this is to use the "WPI VS Code" which will be installed separately from any existing installation of VS Code (the reason WPI needs a its own installation of VS Code is purely for licensing purposes and has no impact on performance). To use the "WPI VS Code", select "Download for this computer only". Once the installer downloads VS Code, select "Next".
-2. If you have an existing installation of VS Code and don't want to install more, you can select "Skip and don't use VS Code (NOT RECOMMENDED)". This will just install the necessary dependencies. After this is finished, you will need to open the VS Code installation you want to use, and install all the `*.vsix` files from `~/wpilib/<year>/vsCodeExtensions/`. Alternatively, if you don't wish to use VS Code, no further action is needed (much if not all of the functionality provided by the WPILib extension is simply wrapped execution of Gradle tasks, so you will just need to make sure you have Gradle installed).
+2. If you have an existing installation of VS Code and don't want to install more, you can select "Skip and don't use VS Code (NOT RECOMMENDED)". This will just install the necessary dependencies. After this is finished, you will need to open the VS Code installation you want to use, and install all the `*.vsix` files from `~/wpilib/<year>/vsCodeExtensions/`. Alternatively, if you don't wish to use VS Code, no further action is needed (much if not all of the functionality provided by the WPILib extension is simply wrapped execution of Gradle tasks, all of which can be executed with the project's gradle wrapper script `gradlew`).
 The installer will now install all the necessary dependencies. Once complete, select "Finish".
 
 Note that there should be a directory at `~/wpilib/<year>`. There are a couple of things to notice here.
