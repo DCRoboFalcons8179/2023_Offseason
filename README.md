@@ -1,3 +1,4 @@
-# dc-robotics
+# DC Robotics
 
-repo for demos/notes for DC FRC team
+Notes/examples for DC Robotics team
+
