@@ -12,6 +12,7 @@
 	2. Gradle Tasks
 4. Robot Application 
 	1. Structure
+		1. Go over other control system/software-overview presentations?
 	2. Reusable Code (y2y)
 		1. [My Example](https://github.com/frc-862/lightning)
 		2. Should also do some kind of logging, integrated options often are not sufficient
@@ -21,6 +22,7 @@
 		2. [PathPlanner](https://github.com/mjansen4857/pathplanner)
 		3. Glass
 	5. Vision Processing
+		1. Why you shouldn't do it on the RIO: [RoboRIO Specs](https://www.ni.com/docs/en-US/bundle/roborio-20-specs/page/specs.html)
 
 ## Subsystem Development Notes
 
