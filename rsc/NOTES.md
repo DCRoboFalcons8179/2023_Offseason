@@ -32,3 +32,13 @@
 - Plan how subsystems should interact with each other - every subsystem can only be doing one thing at a time
 	- In a command, if a subsystem only used in a read-only fashion, do not add it as a requirement to the command
 - Use NetworkTables
+
+
+## Arm System
+sys
+- move position
+- periodic
+cmd
+- stop
+- collect pos
+- score pos

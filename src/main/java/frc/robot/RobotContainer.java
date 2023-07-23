@@ -6,9 +6,18 @@ package frc.robot;
 
 import edu.wpi.first.wpilibj2.command.Command;
 import edu.wpi.first.wpilibj2.command.Commands;
+import frc.robot.subsystem.Arm;
 
 public class RobotContainer {
+
+    private final Arm arm;
+
     public RobotContainer() {
+
+        this.arm = new Arm();
+
+        
+
         configureBindings();
     }
 
