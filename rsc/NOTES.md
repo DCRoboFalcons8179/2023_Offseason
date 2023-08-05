@@ -1,3 +1,19 @@
+# 5 August 2023
+
+## Plan
+
+1. Review questions from 22 July
+2. Finish Building `Arm` Subsystem
+3. WPILib Tools
+	1. Shuffleboard
+	2. [PathPlanner](https://github.com/mjansen4857/pathplanner)
+	3. Glass
+4. Reusable Code (y2y)
+	1. [My Example](https://github.com/frc-862/lightning)
+	2. Should also do some kind of logging, integrated options often are not sufficient
+
+
+
 # 22 July 2023
 
 ## Plan
@@ -38,7 +54,21 @@
 sys
 - move position
 - periodic
+- 
 cmd
 - stop
 - collect pos
 - score pos
+
+
+# Lambda
+
+```java
+
+func(ClassName::someMethod);
+
+func (f) {
+	f.get();
+}
+
+```
