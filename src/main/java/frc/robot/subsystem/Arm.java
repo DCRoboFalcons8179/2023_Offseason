@@ -11,6 +11,7 @@ import edu.wpi.first.wpilibj.shuffleboard.Shuffleboard;
 import edu.wpi.first.wpilibj.shuffleboard.ShuffleboardTab;
 import edu.wpi.first.wpilibj2.command.CommandScheduler;
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
+import frc.falcon.logging.Logger;
 import frc.robot.Constants;
 
 public class Arm extends SubsystemBase {
@@ -80,7 +81,7 @@ public class Arm extends SubsystemBase {
 	}
 
 	private void initLogs() {
-		// TODO implement
+		Logger.getInstance().addDataElement("Arm Encoder (deg)", this::getCurrentPos);
 	}
 
 }
